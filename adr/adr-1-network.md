@@ -1,24 +1,29 @@
 # ADR 1: Network
 
-**Date**: 2024-02-13
+Date: 2024-02-13
 
 ## Status
 Proposed
 
 ## Context
-All hospital have to have an intranet network, but sometimes it's could be low quality, or even not exists(if building too old).
-We plan to build network agnostic system, which will be able to work in any type of network. As ready solution we could add to our system network adapter, which will be able to create network using high voltage network, or Wi-Fi points
+In addition to the network agnostic system decision, it is important to consider the specific implementation details and potential challenges that may arise.
 
 ## Decision
-Use network agnostic solution
+Utilize a network adapter that can create networks using high voltage lines or Wi-Fi points to ensure compatibility with various types of network infrastructures.
 
 ## Consequences
 
 ### Positive
-- We can provide solution for any type of hospital building
+- Flexibility to adapt to different network environments in hospitals, including older buildings with limited networking capabilities.
+- Increased accessibility and connectivity for hospital staff and systems.
+- Potential cost savings by utilizing existing infrastructure for network connectivity.
 
 ### Negative
-- All other solution except ethernet will provide worse quality of network, it should be compensate by code side
+- Possible performance limitations compared to traditional Ethernet networks, requiring additional optimization at the software level.
+- Complexity in managing and troubleshooting network issues across diverse network types.
+- Higher dependency on the reliability and stability of alternative network solutions like powerline networking or Wi-Fi.
 
 ### Risks
-- Alternative network solution could have worse quality than necessary 
+- Compatibility issues with certain network configurations or equipment.
+- Security vulnerabilities associated with non-traditional network setups.
+- Limited scalability in cases where high network traffic or specialized requirements are needed.

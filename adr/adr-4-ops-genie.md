@@ -1,24 +1,27 @@
-# ADR 2: Proxy
+# ADR 4: OpsGenie
 
-**Date**: 2024-02-13
+Date: 2024-02-13
 
 ## Status
 Proposed
 
 ## Context
-We assume that getting data and show it in a dashboard is few piece of application. The other important pies - management nurses/doctors/schedule and sending notification.
-As a prove of concept we recommend to use [OpsGenie](https://www.atlassian.com/software/opsgenie). This application allows to create doctors/nurses and schedule for them. Also this application allow to send notification via different transport(sms/push/email and etc), and has feature to escalate alarm, if it wouldn't be asknowledged on time.
+The decision to use OpsGenie for user management and notifications introduces dependencies on an external service that may impact the reliability and sustainability of the system.
 
 ## Decision
-Use OpsGenie for user management and notifications
+Utilize OpsGenie for user management, scheduling, and notifications as a proof of concept to streamline operations and enhance communication within the system.
 
 ## Consequences
 
 ### Positive
-- Reduce time to market
+- Accelerated development and deployment of user management, scheduling, and notification features.
+- Improved efficiency in managing nurses, doctors, schedules, and notifications through a dedicated platform.
+- Enhanced functionality for escalating alarms and ensuring timely responses to critical events.
 
 ### Negative
-- Our solution depends on different service
+- Dependency on an external service introduces potential risks related to service availability, changes in functionality, or discontinuation of the service.
+- Limited customization options compared to a custom-built solution tailored specifically to the system's requirements.
 
 ### Risks
-- service could change or even die, and we can do nothing
+- Disruption in user management, scheduling, or notification processes in case of service unavailability or changes in OpsGenie's features.
+- Lack of control over the service's evolution and potential limitations in adapting to future system needs.

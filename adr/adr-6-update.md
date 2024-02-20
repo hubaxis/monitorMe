@@ -1,23 +1,24 @@
 # ADR 6: Update
 
-**Date**: 2024-02-13
+Date: 2024-02-13
 
 ## Status
-Proposed
+Accepted
 
 ## Context
-We assume that installing app on a lot of devices in the hospital is a big headache. Manual updating all these devices could be a problem too. Our proposal includes update mechanism to support and maintain application without reinstalling.
+Managing updates for applications installed on numerous devices in a hospital setting can be challenging and time-consuming. Manual updates may not be feasible, and ensuring all devices are up to date with the latest software is crucial for security and functionality.
+
 ## Decision
-Use update server and update mechanism for apps in a hospital.
+Implement an update server and mechanism to facilitate the seamless updating of applications across all devices in the hospital. This will allow for centralized control and efficient distribution of updates without the need for manual intervention on each individual device.
 
 ## Consequences
 
 ### Positive
-- Control of app software
-- Quick update in case of critical bug
+- Centralized Control: The update server enables centralized management of app software, ensuring consistency across all devices.
+- Quick Response to Critical Issues: The update mechanism allows for rapid deployment of critical bug fixes or updates, enhancing system reliability and security.
 
 ### Negative
-- Need internet access for update
+- Dependency on Internet Access: The update process requires internet connectivity, which may pose a challenge in environments where internet access is limited or unreliable.
 
 ### Risks
-- Internet could be unavailable, and update could be blocked.
+- Internet Dependency: In scenarios where internet access is unavailable or unstable, the update process may be disrupted, potentially leading to devices running outdated software and security vulnerabilities.
