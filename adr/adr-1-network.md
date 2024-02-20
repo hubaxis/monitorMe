@@ -6,7 +6,7 @@
 Proposed
 
 ## Context
-All hospital have to have and intranet network, but some time it's could be low quality, or even not exists(if building too old).
+All hospital have to have an intranet network, but sometimes it's could be low quality, or even not exists(if building too old).
 We plan to build network agnostic system, which will be able to work in any type of network. As ready solution we could add to our system network adapter, which will be able to create network using high voltage network, or Wi-Fi points
 
 ## Decision
