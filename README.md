@@ -20,7 +20,7 @@ The goal of the MonitorMe system is to provide a robust medical patient monitori
 
 
 ### Non-functional Requirements
-After our [detailed analysis](artifacts/requirements.md) of business requirements, we've defined the following NFRs for the system:
+After our [detailed analysis](artifacts/Requirements.md) of business requirements, we've defined the following NFRs for the system:
 
  - Availability
  - Fault tolerance
