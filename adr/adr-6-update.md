@@ -3,7 +3,7 @@
 Date: 2024-02-13
 
 ## Status
-Accepted
+Proposed
 
 ## Context
 Managing updates for applications installed on numerous devices in a hospital setting can be challenging and time-consuming. Manual updates may not be feasible, and ensuring all devices are up to date with the latest software is crucial for security and functionality.
