@@ -1,7 +1,7 @@
 # Digital Nomads Architectural Kata by O'Reilly, Spring 2024
 
 ## Who "Digital Nomads" are
-We are the solution arhitects and managers from [EffectiveSoft Corp.](https://www.effectivesoft.com/), an international software development service provider.
+We are the solution architects and managers from [EffectiveSoft Corp.](https://www.effectivesoft.com/), an international software development service provider.
 
 Our motto is "Looking beyond and possible" is more than just a motto to us. We do our best to combine the needs of our customers with the best practices and cutting-edge technologies to create a powerful custom-tailored solution. 
 
