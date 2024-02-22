@@ -1,6 +1,6 @@
 ## C4 Model
 ### System Context diagram
-![System Context.png](images/System Context.png)
+![SystemContext.png](images/SystemContext.png)
 ### Container diagram
-![Containers diagram.png](images/Containers diagram.png)
+![ContainersDiagram.png](images/ContainersDiagram.png)
 ### Component diagrams
