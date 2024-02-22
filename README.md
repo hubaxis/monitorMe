@@ -1,7 +1,7 @@
 # Digital Nomads Architectural Kata by O'Reilly, Spring 2024
 
 ## Who "Digital Nomads" are
-We are the solution architects from [EffectiveSoft Corp.](https://www.effectivesoft.com/), a leading company in software product development services.
+We are the solution architects and team leads from [EffectiveSoft Corp.](https://www.effectivesoft.com/), a leading company in software product development services.
 * [Oleg Yanovich](https://www.linkedin.com/in/yanovicholeg/)
 * [Oleg Maslovsky](https://www.linkedin.com/in/oleg-maslovsky-29905a5b/)
 * [Andrey Charnamys](https://www.linkedin.com/in/andrei-charnamys/)
