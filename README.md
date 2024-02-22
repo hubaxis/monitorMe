@@ -37,7 +37,7 @@ After our [detailed analysis](artifacts/Requirements.md) of business requirement
  - Extensibility
  - Security
 
-By defining a proxy application (ADR-2), we mitigate the risk of a single point of failure. Regularly fetching and storing data simplifies the restoration process in case of a crash. In the event of errors or incorrect behavior from the proxy app, it can be swiftly replaced. Additionally,if using proxy app, deployment becomes straightforward. Incorporating an update component enables easy configuration and extension of the application for new features. Our strategy includes implementing a secure protocol for communication between servers and transmitting anonymous data.
+By defining a proxy application (ADR-2), we mitigate the risk of a single point of failure. Regularly fetching and storing data simplifies the restoration process in case of a crash. In the event of errors or incorrect behavior from the proxy app, it can be swiftly replaced. Additionally,if using proxy app, deployment becomes straightforward. Incorporating an update component(ADR-6) enables easy configuration and extension of the application for new features. Our strategy includes implementing a secure protocol for communication between servers and transmitting anonymous data.
 
 ### Assumptions
 
