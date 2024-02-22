@@ -1,19 +1,20 @@
 # Digital Nomads Architectural Kata by O'Reilly, Spring 2024
 
 ## Who "Digital Nomads" are
-We are the solution architects and managers from [EffectiveSoft Corp.](https://www.effectivesoft.com/), an international software development service provider.
+We are the solution architects and managers from [EffectiveSoft Corp.](https://www.effectivesoft.com/), a leading company in software product development services.
 * [Oleg Yanovich](https://www.linkedin.com/in/yanovicholeg/)
 * [Oleg Maslovsky](https://www.linkedin.com/in/oleg-maslovsky-29905a5b/)
 * [Andrey Charnamys](https://www.linkedin.com/in/andrei-charnamys/)
 * [Andrey Safonov](https://www.linkedin.com/in/xferra/)
 * [Vladimir Shlykov](https://www.linkedin.com/in/vladimirshlykov/)
+ 
+As long-term partner for our clients, we do more than just solve technical issues. We strive to deliver technical solutions that assist our clients in achieving their business goals. We frame business challenges in a way that reveals answers, not obstacles.
 
-
-Our motto is "Looking beyond and possible" is more than just a motto to us. We do our best to combine the needs of our customers with the best practices and cutting-edge technologies to create a powerful custom-tailored solution. 
-
-We love technologies, we love an architecture.
+Our daily practice involves seamlessly integrating technology with architecture, crafting solutions that are efficient and perfectly tailored to our clients' needs.
 
 ## Glossary
+* NFR - Non-Functional Requirement
+* MVP - Minimum Viable Product
 
 ## Requirements
 
