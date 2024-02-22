@@ -60,7 +60,7 @@ We propose to start implementing from a Minimum Viable Product (MVP) without ext
 | **MVP Update according to Feedback** | Improve the system according to users feedback and prepare MonitorMe to release. | - Analyze user feedback and prioritize enhancements.<br/>- Implement enhancements. <br/>- Deploy updated versions of the MVP, testing the updating service simultaniously. |
 | **External Integrations** | Integrate the system with MonitorThem platform. | - Implement API integration with MonitorThem. <br/>- Test MonitorThem integration to make sure the data is consistant. |
 | **Release Version 1.0** |  Release the MVP with integrations. | - Test the release candidate on staging. <br/>- Launch Version 1.0 for mobile, wev and desktop applications. |
-| **Support** | Provide immediate reaction to critical issues. | - Allocate a support team. <br/>- Agree on SLA conditions. <br/>- Update the system as soon as possible in case of critical issues.|
+| **Support 24/7** | Provide immediate reaction to critical issues. | - Allocate a support team. <br/>- Agree on SLA conditions. <br/>- Update the system as soon as possible in case of critical issues.|
 | **Scaling nurses stations** | Scale infrastructure to cover all patients in the clinic. | - Deploy new nurses stations. <br/>- Monitor system performance and scalability. |
 | **Continuous Improvement and expansion** | Continuously system improvement and involving new clinics. | - Deploy MonitorMe to new Clinics. <br/>- Gather feedback from new users. <br/>- Implement enhancements based on users feedback. |
 
