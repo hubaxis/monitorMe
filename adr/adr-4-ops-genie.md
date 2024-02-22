@@ -7,8 +7,7 @@ Proposed
 
 ## Context
 The decision to use OpsGenie for user management and notifications introduces dependencies on an external service that may impact the reliability and sustainability of the system.
-See [here](adr-4.png)
-
+![dr-4.png](adr-4.png)
 ## Decision
 Utilize OpsGenie for user management, scheduling, and notifications as a proof of concept to streamline operations and enhance communication within the system.
 
