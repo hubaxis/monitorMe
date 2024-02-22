@@ -43,8 +43,18 @@ After our [detailed analysis](artifacts/Requirements.md) of business requirement
 
 ## C4 Model
 ### System Context diagram
+![SystemContext.png](c4model/images/SystemContext.png)
 ### Container diagram
+![ContainersDiagram.png](c4model/images/ContainersDiagram.png)
 ### Component diagrams
+#### Vital Sign Collector
+![VitalSignCollector.png](c4model/images/VitalSignCollector.png)
+#### Analytics
+![Analytics.png](c4model/images/Analytics.png)
+#### Notifications
+![Notifications.png](c4model/images/Notifications.png)
+#### Authentication
+![Authentication.png](c4model/images/Authentication.png)
 
 ## Architecture Decision Records
 
