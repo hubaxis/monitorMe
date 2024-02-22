@@ -59,7 +59,19 @@ By defining a proxy application(ADR-2), we mitigate the risk of a single point o
 ![Authentication.png](c4model/images/Authentication.png)
 
 ## Architecture Decision Records
+[ADR 1. Network](adr/adr-1-network.md)
 
+[ADR 2. Proxy](adr/adr-2-proxy.md)
+
+[ADR 3. Power](adr/adr-3-power.md)
+
+[ADR 4. OpsGenie](adr/adr-4-ops-genie.md)
+
+[ADR 5. Architecture](adr/adr-5-architecture.md)
+
+[ADR 6. Update](adr/adr-6-update.md)
+
+[ADR 7. Alerting](adr/adr-7-alerting.md)
 
 # Project implementation approach and milestones
 We propose to start implementing from a Minimum Viable Product (MVP) without external integrations. We are going to use Scrum for the development process, but we are not going to deploy the system to a clinic environment after each sprint. We will need to build a test environment (staging) where the system will get auto generated data, but the values of the parameters will be real. After the MVP is ready and all tests are passed on our staging environment, we will deploy only one instance of the system to a clinic and test it thoroughly to make sure the system gets all the parameters correctly and the notifications work properly in all users’ scenarios including corner cases. During that period medical professionals shouldn't rely on the system, and they should use their current monitoring tools in parallel to reduce the negative consequences of possible issues. Also, we will get user feedback to adjust the system to medical professionals’ needs.
